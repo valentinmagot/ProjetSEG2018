@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackgroundLight">
+
+
+            <LinearLayout
+                android:paddingHorizontal="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true">
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/email"
+                    android:ems="10"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    android:inputType="textAutoComplete|textEmailAddress"
+                    app:met_floatingLabel="highlight"
+                    app:met_textColor="@color/colorTextDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Courriel"
+                    app:met_textColorHint="@color/colorHint"
+                    />
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/password"
+                    android:ems="10"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    android:inputType="textPassword"
+                    app:met_floatingLabel="highlight"
+                    app:met_textColor="@color/colorTextDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mot de passe"
+                    app:met_textColorHint="@color/colorHint"
+                    />
+
+                <Button
+                    android:id="@+id/login"
+                    android:background="#009688"
+                    android:textColor="@color/colorBtnText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Soumettre" />
+                <!--<com.andexert.library.RippleView-->
+                    <!--android:id="@+id/more"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_margin="5dp"-->
+                    <!--app:rv_centered="true">-->
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/btnSignIn"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:text="Soumettre"-->
+                        <!--android:textAlignment="center"-->
+                        <!--android:textSize="18dp"-->
+                        <!--android:textAllCaps="true"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:padding="10dp"-->
+                        <!--android:background="@color/colorBtnSubmit"/>-->
+
+                <!--</com.andexert.library.RippleView>-->
+
+            </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<CheckBox-->
+                <!--android:id="@+id/remeberMe"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:layout_marginTop="203dp"-->
+                <!--android:contentDescription="Remember me"-->
+                <!--android:text="Remember me"-->
+                <!--android:visibility="visible" />-->
+
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

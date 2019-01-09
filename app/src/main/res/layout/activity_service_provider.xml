@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundLight">
+
+        <LinearLayout
+            android:paddingHorizontal="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextAdresse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Adresse"
+                android:inputType="textPersonName|textAutoComplete"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                app:met_textColor="@color/colorTextDark"
+                app:met_textColorHint="@color/colorHint" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextTelephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telephone"
+                android:inputType="textPersonName|textAutoComplete"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                app:met_textColor="@color/colorTextDark"
+                app:met_textColorHint="@color/colorHint" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextCompany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nom de la Company"
+                android:inputType="textPersonName|textAutoComplete"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                app:met_textColor="@color/colorTextDark"
+                app:met_textColorHint="@color/colorHint" />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Adresse"
+                android:inputType="textPersonName|textAutoComplete"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                app:met_textColor="@color/colorTextDark"
+                app:met_textColorHint="@color/colorHint" />
+
+            <Switch
+                android:id="@+id/switchLicensed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingVertical="20dp"
+                android:text="License Professionel"
+                android:textColor="@color/colorTextDark" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundLight">
+
+        <LinearLayout
+            android:paddingHorizontal="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/lableTypeDeCompte"
+                android:textColor="@color/colorHint"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type de compte" />
+
+            <Spinner
+                android:id="@+id/typeDecompte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextNom"
+                android:ems="10"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                android:inputType="textPersonName|textAutoComplete"
+                app:met_floatingLabel="highlight"
+                app:met_textColor="@color/colorTextDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nom"
+                app:met_textColorHint="@color/colorHint"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextPrenom"
+                android:ems="10"
+                android:inputType="textPersonName|textAutoComplete"
+                app:met_floatingLabel="highlight"
+                app:met_textColor="@color/colorTextDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Prenom"
+                app:met_textColorHint="@color/colorHint"
+                app:met_floatingLabelTextColor="@color/colorFloatingLable"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/editTextEmail"
+                android:ems="10"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                android:inputType="textAutoComplete|textEmailAddress"
+                app:met_floatingLabel="highlight"
+                app:met_textColor="@color/colorTextDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Courriel"
+                app:met_textColorHint="@color/colorHint"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/mdp"
+                android:ems="10"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                android:inputType="textPassword"
+                app:met_floatingLabel="highlight"
+                app:met_textColor="@color/colorTextDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mot de passe"
+                app:met_textColorHint="@color/colorHint"
+                app:met_helperText="Le mot de passe doit contenir de chiffres et des lettres."
+                app:met_helperTextColor="@color/colorHelper"
+                app:met_helperTextAlwaysShown="true"
+                />
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/confmdp"
+                android:ems="10"
+                app:met_floatingLabelTextColor="@color/colorTextDark"
+                android:inputType="textPassword"
+                app:met_floatingLabel="highlight"
+                app:met_textColor="@color/colorTextDark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmer mot de passe"
+                app:met_textColorHint="@color/colorHint"
+                app:met_helperText="Le mot de passe doit contenir de chiffres et des lettres."
+                app:met_helperTextColor="@color/colorHelper"
+                app:met_helperTextAlwaysShown="true"
+                />
+            <Button
+            android:id="@+id/btnContinuer"
+            android:background="#009688"
+            android:textColor="@color/colorBtnText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Register" />
+
+
+            <!--<in.shadowfax.proswipebutton.ProSwipeButton-->
+                <!--android:id="@+id/btn_awesome"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_margin="20dp"-->
+                <!--app:bg_color="#009688"-->
+                <!--app:text_color="@color/colorBtnText"-->
+                <!--app:btn_text="Register" />-->
+
+           
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

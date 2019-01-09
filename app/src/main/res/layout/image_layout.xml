@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Select a new Avatar"
+                android:id="@+id/textView"
+                android:gravity="center_horizontal" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:useDefaultMargins="true">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/teamid01"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/ic_logo_01"
+                    android:adjustViewBounds="true"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:elevation="5dp"
+                    android:onClick="SetTeamIcon" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/teamid02"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/ic_logo_02"
+                    android:adjustViewBounds="true"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:elevation="5dp"
+                    android:onClick="SetTeamIcon" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/teamid03"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/ic_logo_03"
+                    android:adjustViewBounds="true"
+                    android:layout_row="0"
+                    android:layout_column="4"
+                    android:elevation="5dp"
+                    android:onClick="SetTeamIcon" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/teamid00"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/ic_logo_00"
+                    android:adjustViewBounds="true"
+                    android:layout_row="1"
+                    android:layout_column="4"
+                    android:elevation="5dp"
+                    android:onClick="SetTeamIcon" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/teamid05"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/ic_logo_05"
+                    android:adjustViewBounds="true"
+                    android:layout_row="1"
+                    android:layout_column="3"
+                    android:elevation="5dp"
+                    android:onClick="SetTeamIcon" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/teamid04"
+                    android:layout_above="@+id/linearLayout"
+                    android:layout_alignParentLeft="false"
+                    android:background="@drawable/ic_logo_04"
+                    android:adjustViewBounds="true"
+                    android:layout_row="1"
+                    android:layout_column="0"
+                    android:elevation="5dp"
+                    android:onClick="SetTeamIcon" />
+
+            </GridLayout>
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Load from Phone"
+                android:id="@+id/button2"
+                android:layout_gravity="right"
+                android:layout_row="2"
+                android:layout_column="0" />
+
+            <Space
+                android:layout_width="fill_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

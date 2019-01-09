@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#dcdbdb</color>
+    <color name="colorAccent">#80cbc4</color>
+    <color name="colorBackgroundDark">#303030</color>
+    <color name="colorBackgroundLight">#e2e2e2</color>
+    <color name="colorHint">#6D6767</color>
+    <color name="colorTextLight">#f4f4f4</color>
+    <color name="colorTextDark">#303030</color>
+    <color name="colorFloatingLable">#ffffff</color>
+    <color name="colorBtnText">#4e4a4a</color>
+    <color name="colorBtnSubmit">#d014caba</color>
+    <color name="colorBtnProgress">#e203a2ec</color>
+    <color name="colorHelper">#fd8153</color>
+</resources>

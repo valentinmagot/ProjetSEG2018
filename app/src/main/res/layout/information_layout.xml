@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBackgroundLight">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="559dp"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:paddingHorizontal="25dp">
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="5"
+                    android:hint="#"
+                    android:inputType="number"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextStreetName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Nom de Rue"
+                    android:inputType="textPostalAddress|textAutoComplete"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorFloatingLable"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextCP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Code Pastal"
+                    android:inputType="textAutoComplete|textPostalAddress"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_helperTextAlwaysShown="true"
+                    app:met_helperTextColor="@color/colorHelper"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Ville"
+                    android:inputType="textAutoComplete|textPostalAddress"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Pays"
+                    android:inputType="textAutoComplete|textPostalAddress"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_helperTextAlwaysShown="true"
+                    app:met_helperTextColor="@color/colorHelper"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="# de telephone"
+                    android:inputType="textAutoComplete|phone"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint"
+                    android:maxLength="10"/>
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Courriel"
+                    android:inputType="textAutoComplete|textEmailAddress"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_helperTextAlwaysShown="true"
+                    app:met_helperTextColor="@color/colorHelper"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/editTextWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Site Web"
+                    app:met_floatingLabel="highlight"
+                    app:met_floatingLabelTextColor="@color/colorTextDark"
+                    app:met_helperTextAlwaysShown="true"
+                    app:met_helperTextColor="@color/colorHelper"
+                    app:met_textColor="@color/colorTextDark"
+                    app:met_textColorHint="@color/colorHint"
+                    android:linksClickable="true"
+                    android:autoLink="web"/>
+
+                <Button
+                    android:id="@+id/btnEnregistrer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#009688"
+                    android:text="Enregistrer"
+                    android:textColor="@color/colorBtnText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

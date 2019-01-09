@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "133821363124",
+    "firebase_url": "https://projetseg-f22e3.firebaseio.com",
+    "project_id": "projetseg-f22e3",
+    "storage_bucket": "projetseg-f22e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133821363124:android:3a24e16318e5adad",
+        "android_client_info": {
+          "package_name": "collectifyamoukoudji.projetseg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133821363124-2q59rjqf8haujs57pfk38sdtb0iu5g9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjwAXo9d7GN3xXZ6MBVY8Oj_cMG2SXj_o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
